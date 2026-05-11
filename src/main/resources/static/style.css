@@ -1,0 +1,76 @@
+/* Группировка меток и инпутов */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Красивые инпуты как на макете */
+input {
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid #f0eaff;
+    border-radius: 15px;
+    background-color: #fcfaff;
+    font-size: 16px;
+    color: #2d3748;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #a29bfe;
+    box-shadow: 0 0 0 3px rgba(162, 155, 254, 0.1);
+}
+
+/* Плейсхолдеры посветлее */
+input::placeholder {
+    color: #cbd5e0;
+}
+/* Стили для карточек целей */
+.goal-card {
+    border: 1px solid #f0eaff;
+    padding: 18px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    text-align: left;
+    background-color: #fcfaff;
+    transition: all 0.2s ease;
+}
+
+.goal-card:hover {
+    border-color: #a29bfe;
+}
+
+/* Когда карточка выбрана (активное состояние) */
+.goal-card.selected {
+    border: 2px solid #8a4fff;
+    background-color: #f8f6ff;
+}
+
+.goal-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2d3748;
+    margin-bottom: 4px;
+}
+
+.goal-desc {
+    font-size: 13px;
+    color: #718096;
+}
+
+/* Кнопка "Завершить" как на макете */
+.btn-main {
+    background: linear-gradient(90deg, #a29bfe 0%, #fd79a8 100%);
+    box-shadow: 0 8px 15px rgba(162, 155, 254, 0.2);
+}
